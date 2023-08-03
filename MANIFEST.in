@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include castle *.css
+recursive-include castle *.csv
+recursive-include castle *.html
+recursive-include castle *.ico
+recursive-include castle *.js
+recursive-include castle *.json
+recursive-include castle *.md
+recursive-include castle *.png
+recursive-include castle *.py
+recursive-include castle *.svg
+recursive-include castle *.txt
+recursive-exclude castle *.pyc
